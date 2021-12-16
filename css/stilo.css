@@ -11,7 +11,7 @@ html, body {
 }
 body {
     background-position: fixed;
-	background: linear-gradient(90deg, #37D9DE 0%,#E04F00  100%);
+	background: linear-gradient(90deg, #11b4b9 0%,#bd6c41  100%);
     padding: 0;
     margin: 0;
     font-family: 'Varela Round', sans-serif;
@@ -27,6 +27,9 @@ body {
     height: 60px!important;
     overflow: hidden;
     z-index: 101;
+    border-color: white;
+    border-width: 1px;
+    border-style: outset;
 }
 #sidebarMenu {
     height: 100vh;
@@ -178,7 +181,7 @@ footer{
     padding: 1px;
 }
 .grid-item :hover{
-    background:#2e2e2e;
+    background:#e6d6d6;
 }
 .grid-item {
     padding: 1rem;
@@ -187,7 +190,7 @@ footer{
     text-transform: uppercase;
     color: #000;
     background-color: #ccc;
-    border-radius: 10px; 
+    border-radius: 10px;
     &:nth-child(odd){
         background-color: #ccc;
     }
